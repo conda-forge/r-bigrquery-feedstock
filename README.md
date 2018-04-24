@@ -14,14 +14,16 @@ Summary: Easily talk to Google's 'BigQuery' database from R.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-bigrquery-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-bigrquery-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-bigrquery-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-bigrquery-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-bigrquery-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-bigrquery-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bigrquery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bigrquery-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-bigrquery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bigrquery-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bigrquery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bigrquery-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bigrquery/badges/version.svg)](https://anaconda.org/conda-forge/r-bigrquery)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bigrquery/badges/downloads.svg)](https://anaconda.org/conda-forge/r-bigrquery)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--bigrquery-green.svg)](https://anaconda.org/conda-forge/r-bigrquery) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-bigrquery.svg)](https://anaconda.org/conda-forge/r-bigrquery) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-bigrquery.svg)](https://anaconda.org/conda-forge/r-bigrquery) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-bigrquery.svg)](https://anaconda.org/conda-forge/r-bigrquery) |
 
 Installing r-bigrquery
 ======================

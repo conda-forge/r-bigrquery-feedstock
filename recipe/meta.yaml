@@ -15,7 +15,8 @@ source:
   sha256: 2168e9cdd76aa253f65ee3bf1670af7c4e19e52e3ef8c49c64a96241d12f111e
 
 build:
-  number: 0
+  merge_build_host: True  # [win]
+  number: 1
   skip: true  # [win32]
 
   rpaths:
@@ -24,6 +25,10 @@ build:
 
 requirements:
   build:
+    - posix                # [win]
+    - {{ compiler('c') }}        # [unix]
+    - {{ compiler('m2w64_c') }}  # [win]
+  host:
     - r-base
     - r-dbi
     - r-assertthat
@@ -31,9 +36,6 @@ requirements:
     - r-jsonlite
     - r-progress
     - r-readr
-    - posix                # [win]
-    - {{native}}toolchain  # [win]
-    - gcc                  # [not win]
 
   run:
     - r-base
@@ -43,8 +45,6 @@ requirements:
     - r-jsonlite
     - r-progress
     - r-readr
-    - {{native}}gcc-libs   # [win]
-    - libgcc               # [not win]
 
 test:
   commands:

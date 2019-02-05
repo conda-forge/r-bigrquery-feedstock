@@ -1,4 +1,4 @@
-{% set version = '0.4.1' %}
+{% set version = "1.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/bigrquery_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/bigrquery/bigrquery_{{ version }}.tar.gz
-  sha256: 2168e9cdd76aa253f65ee3bf1670af7c4e19e52e3ef8c49c64a96241d12f111e
+  sha256: 21826db5fbe493748db806ea93a3e2824dba8f3c86d060e86dea021eacff5640
 
 build:
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   skip: true  # [win32]
 
   rpaths:

@@ -1,4 +1,4 @@
-{% set version = '1.1.0' %}
+{% set version = "1.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigrquery_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigrquery/bigrquery_{{ version }}.tar.gz
-  sha256: 21826db5fbe493748db806ea93a3e2824dba8f3c86d060e86dea021eacff5640
+  sha256: 3a826eb4700b127cc74b37f4cf47734f92f7d679a23b10b0ac3d0c91674fc3c5
 
 build:
   merge_build_host: True  # [win]

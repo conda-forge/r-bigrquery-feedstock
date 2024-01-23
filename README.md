@@ -9,7 +9,7 @@ About r-bigrquery
 
 Home: https://github.com/rstats-db/bigrquery
 
-Package license: GPL-3.0-only
+Package license: MIT
 
 Summary: Easily talk to Google's 'BigQuery' database from R.
 
@@ -18,7 +18,7 @@ About r-bigrquery
 
 Home: https://github.com/rstats-db/bigrquery
 
-Package license: GPL-3.0-only
+Package license: MIT
 
 Summary: Easily talk to Google's 'BigQuery' database from R.
 

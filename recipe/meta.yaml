@@ -18,19 +18,20 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  skip: true  # [win]
 
 requirements:
   build:
-    - {{ compiler('c') }}              # [not win]
-    - {{ compiler('m2w64_c') }}        # [win]
-    - {{ compiler('cxx') }}            # [not win]
-    - {{ compiler('m2w64_cxx') }}      # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - {{ compiler('c') }}          # [not win]
+    - {{ compiler('m2w64_c') }}    # [win]
+    - {{ compiler('cxx') }}        # [not win]
+    - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
-    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-dbi
@@ -40,7 +41,7 @@ requirements:
     - r-clock
     - r-cpp11
     - r-curl
-    - r-gargle >=1.4.0
+    - r-gargle >=1.5.0
     - r-httr
     - r-jsonlite
     - r-lifecycle
@@ -58,7 +59,7 @@ requirements:
     - r-clock
     - r-cpp11
     - r-curl
-    - r-gargle >=1.4.0
+    - r-gargle >=1.5.0
     - r-httr
     - r-jsonlite
     - r-lifecycle
@@ -73,7 +74,8 @@ test:
     - "\"%R%\" -e \"library('bigrquery')\""  # [win]
 
 about:
-  home: https://github.com/rstats-db/bigrquery
+  home: https://bigrquery.r-dbi.org/
+  dev_url: https://github.com/r-dbi/bigrquery
   license: MIT
   summary: Easily talk to Google's 'BigQuery' database from R.
   license_family: GPL3

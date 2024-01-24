@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigrquery-fee
 About r-bigrquery
 -----------------
 
-Home: https://github.com/rstats-db/bigrquery
+Home: https://bigrquery.r-dbi.org/
 
 Package license: MIT
 
 Summary: Easily talk to Google's 'BigQuery' database from R.
+
+Development: https://github.com/r-dbi/bigrquery
 
 About r-bigrquery
 -----------------
 
-Home: https://github.com/rstats-db/bigrquery
+Home: https://bigrquery.r-dbi.org/
 
 Package license: MIT
 
 Summary: Easily talk to Google's 'BigQuery' database from R.
+
+Development: https://github.com/r-dbi/bigrquery
 
 Current build status
 ====================
@@ -100,13 +104,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3354&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigrquery-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigrquery-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>

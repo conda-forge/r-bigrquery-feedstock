@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigrquery_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigrquery/bigrquery_{{ version }}.tar.gz
-  sha256: ca56da71f1028a642c9255685b6946956f6c25c160a06d59c0530fa4664f7572
+  sha256: 6b26d411dfaf8b9cfcd2c21e80b79c8a7edfd3e4188204785e373cb146f0b67e
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

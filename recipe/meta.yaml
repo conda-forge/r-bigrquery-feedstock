@@ -32,6 +32,7 @@ requirements:
     - r-clock                    # [build_platform != target_platform]
     - r-cli                      # [build_platform != target_platform]
     - r-lifecycle                # [build_platform != target_platform]
+    - r-nanoparquet              # [build_platform != target_platform]
     - r-curl                     # [build_platform != target_platform]
     - r-prettyunits              # [build_platform != target_platform]
     - r-dbi                      # [build_platform != target_platform]
@@ -62,6 +63,7 @@ requirements:
     - r-httr
     - r-jsonlite
     - r-lifecycle
+    - r-nanoparquet
     - r-prettyunits
     - r-rapidjsonr
     - r-rlang >=1.1.0
@@ -79,6 +81,7 @@ requirements:
     - r-httr
     - r-jsonlite
     - r-lifecycle
+    - r-nanoparquet
     - r-prettyunits
     - r-rapidjsonr
     - r-rlang >=1.1.0
